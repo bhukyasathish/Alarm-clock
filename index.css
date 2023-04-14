@@ -1,0 +1,134 @@
+body{
+    background-image: url('imge.png');
+    margin-top: 3%;
+    margin-left: 31%; 
+    font-family: 'Times New Roman', Times, serif;
+    margin-right: 40%;
+    /* align-items: center; */
+}
+
+.container{
+    align-content: center;
+    text-align: center;
+}
+
+.time-display{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+   /* background-color: white; */
+    width: 230px;
+    height: 10%;
+    /* border-radius: 10px; */
+    padding-left: 80px;
+    padding-right: 5px; 
+    margin-left: 35px;
+
+}
+
+section {
+    width: 400px;
+    background-color: rgba(247, 165, 11, 0.934);
+    border-radius: 20px;
+}
+
+
+.timer{
+    width: 170px;
+    height: 100px;
+    margin-top: 7px;
+    margin-right: 10px;
+    border-radius: 20px;
+}
+
+#clock{
+    font-size: 2.9rem;
+    font-weight: bold;
+    color: white;
+    margin-left: -180px;
+    margin-top: 115px;
+
+}
+
+
+.set-alarm-field{
+    margin-top: -20px;
+    height: 40px;
+    /* background-color: yellowgreen; */
+    padding-top: 5px;
+}
+
+.controls button{
+    background-color: #67f813;
+    color: white;
+    width: 105px;
+    height: 35px;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    font-weight:500;
+}
+
+.set-alarm {
+    border-color: #67f813;
+}
+
+.clear-alarm {
+    border-color: crimson;
+}
+
+.controls .set-alarm:hover{
+    background-color: #204b74;
+    border-color: #204b74;
+}
+
+.controls .clear-alarm:hover{
+    border-color: rgb(236, 10, 10);
+}
+
+#myList{
+    list-style-type: none;
+
+}
+
+#myList li{
+    font-size: 1.2rem;
+    color: white;
+    /* background-color: #204b74; */
+    height: 2rem;
+    margin-left: -16px;
+    border-radius: 4px;
+    padding-left: 16px;
+    padding-top: 10px;
+    width: 280px;
+    margin-bottom: 10px;
+
+}
+
+.time-list{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.time-list span{
+    /* background-color: violet; */
+    width: 160px;
+    margin-right: 18px;
+
+}
+
+.time-list button{
+    background-color: brown;
+   /* background-color: #5d759d; */
+    border-color: #5d759d;
+    border-radius: 3px;
+    border-width: 0px;
+    height: 22px;
+    color: white;
+}
+
+h3 { 
+    margin-right: 160px;
+    margin-top: -20px;
+    color: white;
+}
